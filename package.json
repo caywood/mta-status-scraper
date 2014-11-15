@@ -1,0 +1,15 @@
+{
+  "name": "mta-status-scraper",
+  "version": "0.0.1",
+  "author": "Lou Huang",
+  "description": "Read MTA system status API, convert to JSON & post to another server",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "superagent": "^0.21.0",
+    "xml2js": "^0.4.4"
+  }
+}
